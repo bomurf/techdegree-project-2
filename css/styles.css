@@ -1,0 +1,91 @@
+/* Base */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Quicksand', sans-serif;
+}
+
+h1.name {
+  display: inline-block;
+  padding-left: 30px;
+  float: left;
+  clear: both;
+}
+/* Nav */
+ul.main-nav {
+  list-style-type: none;
+  display: inline-block;
+  margin: 0;
+  padding-top: 15px;
+  padding-right: 30px;
+  background-color: white;
+  float: right;
+}
+
+ul.main-nav li {
+  float: left;
+}
+
+ul.main-nav li a {
+  display: inline-block;
+  color: navy;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+ul.main-nav li a:hover {
+  background-color: lightgrey;
+  color: firebrick;
+}
+
+.main-img {
+  float: right;
+  padding-right: 45px;
+}
+
+.header-img p {
+  padding-left: 30px;
+}
+
+h2#portfolio {
+  text-align: center;
+  padding-top: 75px;
+  padding-bottom: 50px;
+}
+/* containers */
+.main-container {
+  width: 90%;
+}
+
+.first,
+.second,
+.third {
+  width: 30%;
+}
+
+
+/* Media Queries */
+
+@media (min-width: 320px) {
+  ul.main-nav li {
+    display: inline-block;
+    text-align: center;
+    float: none;
+  }
+
+  h1.name {
+    text-align: center;
+  }
+
+
+/* Float Clearfix */
+
+  .clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
