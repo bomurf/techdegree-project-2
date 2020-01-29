@@ -76,6 +76,7 @@ ul.main-nav li a:hover {
 .main-img {
   float: right;
   padding-right: 45px;
+  padding-left: 15px;
 }
 
 .header-img p {
@@ -92,9 +93,6 @@ h2#portfolio {
   width: 100%;
 }
 
-.col1 {
-  width: 90%;
-}
 .first,
 .second,
 .third,
@@ -125,6 +123,10 @@ h2#portfolio {
   padding-top: 75px;
 }
 
+#contact p {
+  padding: 0 275px;
+}
+
 p.phone {
   padding-top: 25px;
 }
@@ -132,6 +134,7 @@ p.phone {
 p.email {
   padding-bottom: 25px;
 }
+
 
 /* Media Queries */
 
