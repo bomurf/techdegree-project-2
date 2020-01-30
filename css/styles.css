@@ -8,170 +8,88 @@ body {
   font-family: 'Quicksand', sans-serif;
 }
 
-h1.name {
-  display: inline-block;
-  padding-left: 30px;
-  float: left;
-  clear: both;
-}
-
-h3.secondary-name {
-  display: inline-block;
-  padding-left: 30px;
-  float: left;
-  clear: both;
-}
-
-ul.main-nav {
-  list-style-type: none;
-  display: inline-block;
-  margin: 0;
-  padding-top: 15px;
-  padding-right: 30px;
-  background-color: white;
-  float: right;
-}
-
-ul.secondary-nav {
-  list-style-type: none;
-  display: inline-block;
-  margin: 0;
-  padding-top: 10px;
-  padding-bottom: 15px;
-  padding-right: 30px;
-  background-color: white;
-  float: right;
-}
-
-ul.main-nav li {
-  float: left;
-}
-
-ul.secondary-nav li {
-  float: left;
-}
-
-ul.main-nav li a {
-  display: inline-block;
-  color: navy;
+.main-header {
   text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
 }
 
-ul.secondary-nav li a {
+.main-nav {
+  margin: auto;
+}
+
+ul {
   display: inline-block;
-  color: navy;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
+  list-style-type: none;
+  padding-left: 0;
+  font-weight: bolder;
 }
 
-ul.main-nav li a:hover {
-  background-color: lightgrey;
-  color: firebrick;
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.main-nav li {
+  margin-bottom: 20px;
 }
 
 .main-img {
-  float: right;
-  padding-right: 45px;
-  padding-left: 15px;
+  display: block;
+  margin: auto;
+  width: 50%;
 }
 
 .header-img p {
-  padding-left: 30px;
-}
-
-h2#portfolio {
   text-align: center;
-  padding-top: 75px;
-  padding-bottom: 50px;
+  margin-bottom: 75px;
 }
 
 .main-container {
-  width: 100%;
-}
-
-.col1 {
-  display: inline-block;
-  text-align: center;  
-}
-
-.col2 {
-  display: inline-block;
   text-align: center;
-  margin-top: 30px;
 }
 
-.first,
-.fourth {
-  margin-left: 35px;
+#portfolio {
+  margin-bottom: 40px;
 }
 
-.second,
-.fifth {
-  margin-left: 5px;
+.icon-img {
+  width: 95%;
+  margin: 15px 0 10px 0;
 }
 
-.third,
-.sixth {
-  margin-left: 5px;
+.col1 p,
+.col2 p {
+  margin: 0 15px 15px 15px;
 }
 
-.first,
-.second,
-.third,
-.fourth,
-.fifth,
-.sixth {
-  width: 30%;
+.col1 h3,
+.col2 h3 {
+  margin-bottom: 10px;
 }
 
-
-
-.market-img,
-.search-img,
-.travel-img,
-.map-img,
-.gallery-img,
-.calc-img {
-  width: 100%;
-}
-
-#skills {
-  text-align: center;
-  padding-top: 75px;
-}
+/* #skills { 
+  margin-top: 100px;
+} */
 
 #contact {
-  text-align: center;
-  padding-top: 75px;
+  margin-top: 100px;
 }
-
 #contact p {
-  padding: 0 275px;
+  color: grey;
 }
 
-p.phone {
-  padding-top: 25px;
+.main-footer {
+  margin-top: 75px;
 }
 
-p.email {
-  padding-bottom: 25px;
+.secondary-name {
+  display: inline-block;
+  margin-left: 10px;
 }
 
-
-/* Media Queries */
-
-@media (min-width: 320px) {
-
-  h1.name {
-    display: inline;
-    text-align: center;
-  }
-
-  
-
+.secondary-nav li a {
+  font-size: .8em;
+  margin-left: 110px;
+}
 
 /* Float Clearfix */
 
