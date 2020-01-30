@@ -94,13 +94,28 @@ h2#portfolio {
 
 .col1 {
   display: inline-block;
-  text-align: center;
+  text-align: center;  
 }
 
 .col2 {
   display: inline-block;
   text-align: center;
   margin-top: 30px;
+}
+
+.first,
+.fourth {
+  margin-left: 35px;
+}
+
+.second,
+.fifth {
+  margin-left: 5px;
+}
+
+.third,
+.sixth {
+  margin-left: 5px;
 }
 
 .first,
@@ -149,15 +164,13 @@ p.email {
 /* Media Queries */
 
 @media (min-width: 320px) {
-  ul.main-nav li {
-    display: inline-block;
-    text-align: center;
-    float: none;
-  }
 
   h1.name {
+    display: inline;
     text-align: center;
   }
+
+  
 
 
 /* Float Clearfix */
