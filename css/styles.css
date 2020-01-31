@@ -38,7 +38,7 @@ a {
   width: 50%;
 }
 
-.header-img p {
+.intro {
   text-align: center;
   margin-bottom: 75px;
 }
@@ -86,9 +86,19 @@ a {
   margin-left: 10px;
 }
 
+.secondary-nav li {
+  display: inline-block;
+}
+
 .secondary-nav li a {
   font-size: .8em;
-  margin-left: 110px;
+  margin-left: 105px;
+}
+
+.foot-home a,
+.foot-portfolio a,
+.foot-contact a {
+  display: none;
 }
 
 /* Media */
@@ -103,9 +113,9 @@ a {
     display: inline-block;
   }
 
-  ul li {
+  .main-nav li {
     display: inline-block;
-    margin-left: 50px;
+    margin-left: 30px;
   }
 
   .main-img {
@@ -115,8 +125,10 @@ a {
     margin: 0 10px 0 5px;
   }
 
-  .header-img p {
-    display: inline; 
+  .intro {
+    display: inline;
+    margin-left: 10px;
+    margin-right: 10px; 
   }
 
   .main-container {
@@ -147,10 +159,17 @@ a {
   .secondary-nav {
     display: inline;  
     float: right;
+    margin-left: 10px;
   }
 
-  .secondary-nav a {
+  .secondary-nav li a {
+    display: inline;
     margin-right: 10px;
+    margin-left: 10px;
+  }
+
+  .foot-top a {
+    visibility: hidden;;
   }
 
 }
@@ -167,9 +186,16 @@ a {
   }
 
   .main-container {
-    width: 100%;
+    width: 95%;
     margin: 0 auto;
     text-align: center;
+  }
+
+  .col1, 
+  .col2 {              
+    display: inline-block;
+    width: 30%;
+    float: left;
   }
 
   .icon-img {
@@ -178,11 +204,12 @@ a {
     float: left;
   }
 
-  .col1,
-  .col2 {
-    display: inline-block;
-    width: 30%;
-    float: left;
+  .foot-top {
+    display: none;
+  }
+
+  .secondary-nav {
+    margin-right: 20px;
   }
 
 }
