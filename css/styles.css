@@ -169,12 +169,12 @@ a {
   }
 
   .foot-top a {
-    visibility: hidden;;
+    visibility: hidden;
   }
 
 }
 
-@media (1024px) {
+@media (min-width: 1024px) {
 
   .header-container {
     display: inline-block;
