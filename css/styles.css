@@ -179,6 +179,16 @@ a {
   .header-container {
     display: inline-block;
   }
+
+  .main-header {
+    display: inline-block;
+  }
+
+  .name {
+    display: inline;
+    margin-left: 10px;
+    float: left;
+  }
   
   h1 {
     display: inline-block;
