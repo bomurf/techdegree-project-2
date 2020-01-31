@@ -91,6 +91,101 @@ a {
   margin-left: 110px;
 }
 
+/* Media */
+
+@media (min-width: 768px) {
+
+  .header-img {
+    width: 100%;
+    margin-top: 20px;
+  }
+  nav {
+    display: inline-block;
+  }
+
+  ul li {
+    display: inline-block;
+    margin-left: 50px;
+  }
+
+  .main-img {
+    display: inline-block;
+    width: 40%;
+    float: right;
+    margin: 0 10px 0 5px;
+  }
+
+  .header-img p {
+    display: inline; 
+  }
+
+  .main-container {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  #portfolio {
+    margin: 100px 0 50px 0;
+  }
+
+  .col1,
+  .col2 {
+    width: 50%;
+    float: left;
+  }
+
+  #contact {
+    display: inline-block;
+    margin-top: 100px;
+  }
+
+  #contact p {
+    margin: 20px 100px;
+  }
+
+  .secondary-nav {
+    display: inline;  
+    float: right;
+  }
+
+  .secondary-nav a {
+    margin-right: 10px;
+  }
+
+}
+
+@media (1024px) {
+
+  .header-container {
+    display: inline-block;
+  }
+  
+  h1 {
+    display: inline-block;
+    float: left; 
+  }
+
+  .main-container {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .icon-img {
+    display: inline-block;
+    width: 30%;
+    float: left;
+  }
+
+  .col1,
+  .col2 {
+    display: inline-block;
+    width: 30%;
+    float: left;
+  }
+
+}
 /* Float Clearfix */
 
   .clearfix::after {
