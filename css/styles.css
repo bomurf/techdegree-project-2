@@ -140,7 +140,7 @@ a {
   .main-container {
     background-color: whitesmoke;
     width: 100%;
-    margin: 0 auto;
+    margin: auto;
     text-align: center;
   }
 
