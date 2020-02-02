@@ -5,7 +5,7 @@
 }
 
 body {
-  font-family: 'Quicksand', sans-serif;
+  font-family: "Quicksand", sans-serif;
 }
 
 .main-header {
@@ -66,9 +66,19 @@ a {
   margin-bottom: 10px;
 }
 
-/* #skills { 
+#skills {
   margin-top: 100px;
-} */
+}
+
+.skills-container {
+  background-color: whitesmoke;
+  border-radius: 5px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+  width: 95%;
+  margin: auto;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 500;
+}
 
 #contact {
   margin-top: 100px;
@@ -82,21 +92,22 @@ a {
 }
 
 .secondary-name {
-  display: inline-block;
+  display: inline;
   margin-left: 10px;
 }
 
 .secondary-nav li {
-  display: inline-block;
+  display: inline;
 }
 
 .secondary-nav li a {
-  font-size: .8em;
+  font-size: 0.8em;
   margin-left: 105px;
 }
 
 .foot-home a,
 .foot-portfolio a,
+.foot-skills a,
 .foot-contact a {
   display: none;
 }
@@ -104,7 +115,6 @@ a {
 /* Media */
 
 @media (min-width: 768px) {
-
   .header-img {
     width: 100%;
     margin-top: 20px;
@@ -124,10 +134,11 @@ a {
 
   .intro {
     display: inline;
-    margin-right: 10px; 
+    margin-right: 10px;
   }
 
   .main-container {
+    background-color: whitesmoke;
     width: 100%;
     margin: 0 auto;
     text-align: center;
@@ -143,6 +154,11 @@ a {
     float: left;
   }
 
+  #skills {
+    display: inline-block;
+    margin-top: 100px;
+  }
+
   #contact {
     display: inline-block;
     margin-top: 100px;
@@ -152,26 +168,41 @@ a {
     margin: 20px 100px;
   }
 
+  .main-footer {
+    display: inline-block;
+    width: 100%;
+  }
+
+  .container {
+    display: inline;
+  }
+
+  .secondary-name {
+    display: inline;
+  }
+
   .secondary-nav {
-    display: inline;  
+    display: inline;
     float: right;
-    margin-left: 10px;
   }
 
   .secondary-nav li a {
     display: inline;
     margin-right: 10px;
     margin-left: 10px;
+    margin-bottom: 20px;
   }
 
   .foot-top a {
     visibility: hidden;
   }
 
+  .foot-skills a {
+    margin-left: 25px;
+  }
 }
 
 @media (min-width: 1024px) {
-
   .header-container {
     width: 100%;
     display: inline-block;
@@ -209,12 +240,22 @@ a {
     text-align: center;
   }
 
-  .col1, 
-  .col2 {              
+  .col1,
+  .col2 {
     display: inline-block;
     width: 30%;
     float: left;
     margin-left: 25px;
+  }
+
+  .skills-container {
+    background-color: whitesmoke;
+    border-radius: 5px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+    width: 95%;
+    margin: auto;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 500;
   }
 
   .foot-top {
@@ -224,12 +265,11 @@ a {
   .secondary-nav {
     margin-right: 20px;
   }
-
 }
 /* Float Clearfix */
 
-  .clearfix::after {
-    content: "";
-    display: table;
-    clear: both;
-  }
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
